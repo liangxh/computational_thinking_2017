@@ -1,0 +1,21 @@
+Mat2Bool[mat_] := 
+ Module[{m = mat}, 
+  Table[Table[If[v == 1., True, False], {v, row}], {row, m}]]
+Mat2Exp[mat_] := 
+ Module[{m = mat}, 
+  BooleanMinimize[
+   BooleanFunction[
+    Table[Take[expr, {1, -2}] -> expr[[-1]], {expr, m}]]]]
+
+xlsName = "PATH_TO_REPO/week1/src/out/CHIP_NAME.xls";
+mat = Import[xlsName, {"Data", 1}];
+inDim = mat[[1, 1]]
+outDim = mat[[1, 2]]
+truthTable = Transpose[Mat2Bool[Take[mat, {2, -1}]]];
+inputTable = Take[truthTable, {1, inDim}];
+outputTable = Take[truthTable, {inDim + 1, -1}];
+
+exprs = Table[
+  Mat2Exp[Transpose[
+    Flatten[{inputTable, {outputTable[[i]]}}, 1]]], {i, 
+   Range[outDim]}]

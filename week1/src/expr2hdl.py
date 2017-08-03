@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-@author: xihao liang
+@author: Xihao Liang
 """
 
 import re
+
 
 class PortNameGenerator:
     def __init__(self, prefix='p'):
@@ -13,6 +14,7 @@ class PortNameGenerator:
     def generate(self):
         self.count += 1
         return '%s%d' % (self.prefix, self.count)
+
 
 class HDLGenerator:
     src_code_format = 'CHIP %s {\n\tIN %s;\n\tOUT %s;\n\tPARTS:\n\t\t%s\n}'
@@ -65,11 +67,6 @@ class HDLGenerator:
 
         input_names = part_to_names(input_part)
         output_names = part_to_names(output_part)
-        print input_names
-        print output_names
-
-        #exprs = lines[3:3 + len(output_names)]
-        #exprs = [expr.strip() for expr in exprs]
         line_expr = ''.join(lines[3:]).replace('\\\n', '').replace('{', '').replace('}', '')
         exprs = line_expr.split(', ')
         exprs = map(lambda expr: expr.strip(), exprs)
@@ -149,12 +146,6 @@ class HDLGenerator:
         parts_statement = ';\n\t\t'.join(self.parts_statements) + ';'
         return parts_statement
 
-def max_num(nums):
-    m = nums[0]
-    for n in nums:
-        if n > m:
-            m = n
-    return m
 
 def main():
     import sys    
@@ -166,6 +157,7 @@ def main():
     hdlgenerator = HDLGenerator()
     src_code = hdlgenerator.generate_from_file(filename)
     open(output_filename, 'w').write(src_code)
+
 
 if __name__ == '__main__':
     main()

@@ -258,10 +258,11 @@ def generate_scripts(chip_name, input_names, output_names, generate_output):
 
         i += 1
 
-    open('%s.cmp' % chip_name, 'w').write('\n'.join(cmp_lines) + '\n\n')
-    open('%s.tst' % chip_name, 'w').write('\n'.join(tst_lines) + '\n\n')
-    open('%s_expr.txt' % chip_name, 'w').write('\n'.join(expr_lines) + '\n\n')
-    wbk.save('%s.xls' % chip_name)
+    out_dir = 'out/'
+    open('%s%s.cmp' % (out_dir, chip_name), 'w').write('\n'.join(cmp_lines) + '\n\n')
+    open('%s%s.tst' % (out_dir, chip_name), 'w').write('\n'.join(tst_lines) + '\n\n')
+    open('%s%s_expr.txt' % (out_dir, chip_name), 'w').write('\n'.join(expr_lines) + '\n\n')
+    wbk.save('%s%s.xls' % (out_dir, chip_name))
 
 def main():
     generate_scripts('Xor', 'a b', 'out', generate_xor_output)
