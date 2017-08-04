@@ -52,9 +52,6 @@
         * 布尔代数只能保证推理过程正确，无法保证推理所依据的前提是否正确
             * 如果前提是错的，正确的推理也会得到错误的结果
 
-* 主要贡献
-    * 布尔代数是计算机的基础。没有它，就不会有计算机。
-
 * 参考材料
     * 《编码的奥妙》第十章 [link](http://vdisk.weibo.com/s/BZE2czijFfNzb?sudaref=www.baidu.com)
     * 乔治·布尔 - 百度百科 [link](https://baike.baidu.com/item/%E4%B9%94%E6%B2%BB%C2%B7%E5%B8%83%E5%B0%94/5029124?fr=aladdin&fromid=34983&fromtitle=%E5%B8%83%E5%B0%94)
@@ -84,9 +81,6 @@
         * 把通信理论的解释公式化
         * 对最有效地传输信息的问题进行了研究
         * [注] 论文由香农和威沃共同署名。前辈威沃（Warren Weaver，1894-1978）当时是洛克菲勒基金会自然科学部的主任，他为文章写了序言
-
-
-
 
 * 参考材料
     * 克劳德·艾尔伍德·香农 - 百度百科 [link](https://baike.baidu.com/item/%E5%85%8B%E5%8A%B3%E5%BE%B7%C2%B7%E8%89%BE%E5%B0%94%E4%BC%8D%E5%BE%B7%C2%B7%E9%A6%99%E5%86%9C/10588593?fr=aladdin&fromid=1146248&fromtitle=%E9%A6%99%E5%86%9C)
