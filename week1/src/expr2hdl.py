@@ -1,12 +1,16 @@
 # -*- coding: utf-8 -*-
 """
 @author: Xihao Liang
+@usage: $ python expr2hdl.py CHIP_NAME
 """
 
 import re
 
 
 class PortNameGenerator:
+    """
+    assign name for hidden port within the chip
+    """
     def __init__(self, prefix='p'):
         self.count = -1
         self.prefix = prefix
@@ -23,6 +27,9 @@ class HDLGenerator:
         pass
 
     def add_statement_and(self, a, b, out=None):
+        """
+        generate the line "And(a=.., b=.., out=..)"
+        """
         if out is None:
             out = self.port_name_generator.generate()        
 
@@ -31,6 +38,9 @@ class HDLGenerator:
         return out        
 
     def add_statement_or(self, a, b, out=None):
+        """
+        generate the line "Or(a=.., b=.., out=..)"
+        """
         if out is None:
             out = self.port_name_generator.generate()        
 
@@ -39,6 +49,9 @@ class HDLGenerator:
         return out
 
     def add_statement_not(self, a, out=None):
+        """
+        generate the line "Not(in=.., out=..)"
+        """
         if out is None:
             out = self.port_name_generator.generate()        
 
@@ -47,6 +60,9 @@ class HDLGenerator:
         return out
 
     def generate_from_file(self, filename):
+        """
+        load CHIP_NAME_expr.txt and then generate the code for .hdl file
+        """
         lines = open(filename, 'r').readlines()
         chip_name = lines[0].strip()
         input_part = re.sub('\s+', ', ', lines[1].strip())
@@ -75,8 +91,11 @@ class HDLGenerator:
 
         return self.src_code_format % (chip_name, input_part, output_part, parts_statement)
 
-
     def generate(self, exprs, input_names, output_names):
+        """
+        turn expressions into hardware description language
+        each expression corresponds to an output port, which may be implemented by several lines
+        """
         self.port_name_generator = PortNameGenerator()
         self.parts_statements = []
 
@@ -148,7 +167,7 @@ class HDLGenerator:
 
 
 def main():
-    import sys    
+    import sys
 
     chip_name = sys.argv[1]
     filename = 'project1/%s_expr.txt' % chip_name
