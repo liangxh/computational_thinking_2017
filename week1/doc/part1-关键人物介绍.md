@@ -58,7 +58,7 @@
     * 布尔代数入门 - 阮一峰的网络日志 [link](http://www.ruanyifeng.com/blog/2016/08/boolean-algebra.html)
 
 
-# 克劳德·艾尔伍德·香农 Claude Elwood Shannon
+## 克劳德·艾尔伍德·香农 Claude Elwood Shannon
 
 * 生平
     * 1916年4月30日 — 2001年2月24日
