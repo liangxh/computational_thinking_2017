@@ -34,44 +34,44 @@
         * Lecture 2 - Boolean Arithmetic 布尔运算: 讲解基于布尔逻辑实现数字运算
         * Lecture 3 - Sequential Logic 时序逻辑: 介绍时钟和Flip-flop，以及基于其实现的存储部件
     * 对应作业
-        * Project 1: 基于And, Or, Not等门编写各加法器和ALU的.hdl文件
-        * Project 2: 编写各种存储部件的.hdl文件
-        * Project 3: 基于Nand门编写各逻辑元件的.hdl文件
-
+        * Project 1: 基于Nand门编写And, Or, Not等16個門電路的.hdl文件
+        * Project 2: 基于And, Or, Not等元件编写全加法器，半加法器和ALU等元件的.hdl文件
+        * Project 3: 基于DIFF編寫Flip-flop，RAM等存储部件的.hdl文件
+ 
 * 第二部分: 机器语言
     * 对应章节
         * Lecture 4 - Machine Language 机器语言: 讲解机器语言与编码
     * 对应作业
-        * Project 4: 利用汇编语言实现简单功能 (汇编语言经由CPUEmulator转换为二进制机器语言.hack)
+        * Project 4: 利用汇编语言实现顯示屏顯示和乘法 (汇编语言经由CPUEmulator转换为二进制机器语言.hack)
 * 第三部分: 汇编语言
     * 对应章节
         * Lecture 5 - Computer Architecture 计算机架构: 讲解计算机的抽象架构
         * Lecture 6 - Assembler 汇编器: 讲解汇编语言以及到机器语言的转换
     * 对应作业
-        * Project 5: 编写CPU，Memory等部件，并实现加法等程序的.hdl文件
-        * Project 6: 运行由Jack语言编写后汇编成的代码
+        * Project 5: 编写CPU，Memory, computer等部件，并实现加法等程序的.hdl文件
+        * Project 6: 运行由Jack语言编写Add, Max, 画矩陣和Pong遊戲的.asm代码
 * 第四部分: 虚拟机
     * 对应章节
         * Lecture 7 - Virtual Machine I 虚拟机: 讲解VM中栈的push, pop操作
         * Lecture 8 - Virtual Machine II 虚拟机: 讲解基于VM中实现的函数调用
     *　对应作业
-        * Project 7: 利用VM Emulator运行给定程序了解栈操作
-        * Project 8: 利用VM Emulator运行给定程序了解函数调用
+        * Project 7: 利用VM Emulator运行讀取Memory和棧操作的程序，虛擬器的抽象存儲結構
+        * Project 8: 利用VM Emulator运行函數調用和程序控制(if, loop)的程序，了解編程技巧的抽象實現
 * 第五部分: 高级语言
     * 对应章节
         * Lecture 9: High Level Language 高级语言
         * Lecture 10: Compiler I 编译器
         * Lecture 11: Compiler II 编译器
     * 对应作业
-        * Project 9: (?)
-        * Project 10: (?)
-        * Project 11: (?)
+        * Project 9: 利用Compiler运行HelloWord, List等Jack語言代碼
+        * Project 10: 利用Compiler运行ArrayTest, Square等Jack語言代碼
+        * Project 11: 利用Compiler运行Average, ComplexArray等Jack語言代碼
     
 * 第六部分: 操作系统与软件应用
     * 对应章节
         * Lecture 12: OS
     * 对应作业
-        * Project 12: 基于Jack实现要求的功能
+        * Project 12: 利用Jack实现Keyboard, Memory，Screen等功能
         * Project 13: 鼓励学生基于现有框架开发自己的应用
 ## 其他
 
