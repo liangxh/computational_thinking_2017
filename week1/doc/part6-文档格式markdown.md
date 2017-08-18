@@ -3,23 +3,23 @@
 ## 本章节逻辑模型
 
 * 背景
-    * markdown是当下流行的轻量级标记语言
-    * markdown是本课程重要的内容写作语言
-    * markdown是计算思维的典型范例
+    - markdown是当下流行的轻量级标记语言
+    - markdown是本课程重要的内容写作语言
+    - markdown是计算思维的典型范例
 * 目标
-    * 让学生掌握流行的写作方法
-    * 让学生高效的进行内容协作和写作
-    * 让学生在使用markdown的过程中学习和理解计算思维
+    - 让学生掌握流行的写作方法
+    - 让学生高效的进行内容协作和写作
+    - 让学生在使用markdown的过程中学习和理解计算思维
 * 输入
-    * markdown语法
+    - markdown语法
 * 过程
-    * markdown是什么
-    * markdown的发展
-    * markdown与计算思维的关系
+    - markdown是什么
+    - markdown的发展
+    - markdown与计算思维的关系
 * 输出
-    * 在GitHub上用markdown格式写作业
+    - 在GitHub上用markdown格式写作业
 * 效果
-    * 根据学生对markdown的使用效率和质量评估学生的学习效率
+    - 根据学生对markdown的使用效率和质量评估学生的学习效率
     
 ## markdown
 
