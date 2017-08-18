@@ -27,10 +27,12 @@
    * 计算思维与wiki，git的联系
     
 * 输出
-   * wiki 上写每日心得
+   * wiki 上的每日心得，逻辑模型
+   * github上上传作业
     
 * 效果
-   * 
+   * 根据逻辑模型和每日心得的内容迭代，评估学生的理解和收获状态
+   * 根据github上作业的质量，评估学生能力
 ## wiki
 
 ### wiki的发展史
@@ -93,7 +95,7 @@ Git is a free and open source distributed version control system designed to han
 git 是分布式管理系统在像wiki支持多人共编，有历史版本的基础上，有分支结构，支持本地仓库。从而会有参与者的时间空间，和内容修改记录。从而见证可信度
 
 ## 參考材料
-
+ 
 [wiki](https://zh.wikipedia.org/wiki/Wiki)
 
 [wikipedia](https://zh.wikipedia.org/wiki/维基百科)
