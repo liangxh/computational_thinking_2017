@@ -14,10 +14,10 @@
     
 * 输入
 
-    * git技术的客户端软件[gitkraken](https://www.gitkraken.com)
-    * wiki，git的参考文献
-    * toyhouse,github网站，以及使用的参考文献
-    * 以往课程的toyhouse和GitHub使用案例
+   * git技术的客户端软件[gitkraken](https://www.gitkraken.com)
+   *  wiki，git的参考文献
+   * toyhouse,github网站，以及使用的参考文献
+   * 以往课程的toyhouse和GitHub使用案例
    
 * 过程
     * wiki,git的发展历史
