@@ -3,36 +3,36 @@
 ## 本章节逻辑模型
 
 * 背景
-   * wiki和git是当下极具实用价值的技术
-   * wiki和git是本课程主要的协作管理技术，依托于wiki的media wiki网站toyhouse.cc和依托于git技术的GitHub网站是主要的支持工具
-   * wiki和git是本课程的技术支持，同时他们也是计算思维的案例
+    * wiki和git是当下极具实用价值的技术
+    * wiki和git是本课程主要的协作管理技术，依托于wiki的media wiki网站toyhouse.cc和依托于git技术的GitHub网站是主要的支持工具
+    * wiki和git是本课程的技术支持，同时他们也是计算思维的案例
     
 * 目标
-   * 让学生能够掌握实用技术
-   * 让学生在课程中能够高效协作
-   * 借用wiki和git技术以及相关工具的使用深度学习了解计算思维
+    * 让学生能够掌握实用技术
+    * 让学生在课程中能够高效协作
+    * 借用wiki和git技术以及相关工具的使用深度学习了解计算思维
     
 * 输入
 
-   * git技术的客户端软件[gitkraken](https://www.gitkraken.com)
-   * wiki，git的参考文献
+   * git技术的客户端软件[gitkraken](https://www.gitkraken.com)
+   *  wiki，git的参考文献
    * toyhouse,github网站，以及使用的参考文献
    * 以往课程的toyhouse和GitHub使用案例
    
 * 过程
-   * wiki,git的发展历史
-   * wiki和git是什么
-   * wiki与wikipedia以及mediawiki的区别
-   * toyhouse,github以及git软件gitkraken用法
-   * 计算思维与wiki，git的联系
+    * wiki,git的发展历史
+    * wiki和git是什么
+    * wiki与wikipedia以及mediawiki的区别
+    * toyhouse,github以及git软件gitkraken用法
+    * 计算思维与wiki，git的联系
     
 * 输出
-   * wiki 上的每日心得，逻辑模型
-   * github上上传作业
+    * wiki 上的每日心得，逻辑模型
+    * github上上传作业
     
 * 效果
-   * 根据逻辑模型和每日心得的内容迭代，评估学生的理解和收获状态
-   * 根据github上作业的质量，评估学生能力
+    * 根据逻辑模型和每日心得的内容迭代，评估学生的理解和收获状态
+    * 根据github上作业的质量，评估学生能力
 ## wiki
 
 ### wiki的发展史
@@ -53,14 +53,15 @@ mediawiki的应用
 
 ### wiki与wikipedia以及mediawiki的区别
 
-*  wiki是技术，mediawiki是工具，wikipedia是在mediawiki工具基础上的应用，维基基金会有众多基于mediawiki工具和wiki技术的应用
+ wiki是技术，mediawiki是工具，wikipedia是在mediawiki工具基础上的应用，维基基金会有众多基于mediawiki工具和wiki技术的应用
 
 我们使用的toyhouse.cc网站是基于mediawiki工具和wiki技术搭建的自用wiki平台，而wikipedia是属于维基基金会的wiki平台。
 
 ### 计算思维与wiki的联系
 
-* wiki具有多人协同创作，有历史记录，可回溯，修改内容比对的功能，从而可以提供时间，空间，可信度的证据。
-* wiki里强调参考文献的重要性，同时也是计算思维中的判断依据。
+ wiki具有多人协同创作，有历史记录，可回溯，修改内容比对的功能，从而可以提供时间，空间，可信度的证据。
+
+ wiki里强调参考文献的重要性，同时也是计算思维中的判断依据。
 
 
 ---
@@ -74,15 +75,15 @@ Linux 内核开源项目有着为数众广的参与者。 绝大多数的 Linux 
 
 到了 2005 年，开发 BitKeeper 的商业公司收回了 Linux 内核社区免费使用 BitKeeper 的权力。 这就迫使 Linux 开源社区（特别是 Linux 的缔造者 Linus Torvalds）基于使用 BitKeeper 时的经验教训，开发出自己的版本系统。 他们对新的系统制订了若干目标：
 
-   * 速度
+* 速度
 
-   * 简单的设计
+* 简单的设计
 
-   * 对非线性开发模式的强力支持（允许成千上万个并行开发的分支）
+* 对非线性开发模式的强力支持（允许成千上万个并行开发的分支）
 
-   * 完全分布式
+* 完全分布式
 
-   * 有能力高效管理类似 Linux 内核一样的超大规模项目（速度和数据量）
+* 有能力高效管理类似 Linux 内核一样的超大规模项目（速度和数据量）
 
 2005 年以来，Git 成熟完善， 它的速度飞快，极其适合管理大项目，有着令人难以置信的非线性分支管理系统
 
