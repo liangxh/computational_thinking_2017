@@ -52,12 +52,6 @@
         * 布尔代数只能保证推理过程正确，无法保证推理所依据的前提是否正确
             * 如果前提是错的，正确的推理也会得到错误的结果
 
-* 参考材料
-    * 《编码的奥妙》第十章 [link](http://vdisk.weibo.com/s/BZE2czijFfNzb?sudaref=www.baidu.com)
-    * 乔治·布尔 - 百度百科 [link](https://baike.baidu.com/item/%E4%B9%94%E6%B2%BB%C2%B7%E5%B8%83%E5%B0%94/5029124?fr=aladdin&fromid=34983&fromtitle=%E5%B8%83%E5%B0%94)
-    * 布尔代数入门 - 阮一峰的网络日志 [link](http://www.ruanyifeng.com/blog/2016/08/boolean-algebra.html)
-
-
 ## 克劳德·艾尔伍德·香农 Claude Elwood Shannon
 
 * 生平
@@ -82,10 +76,6 @@
         * 对最有效地传输信息的问题进行了研究
         * [注] 论文由香农和威沃共同署名。前辈威沃（Warren Weaver，1894-1978）当时是洛克菲勒基金会自然科学部的主任，他为文章写了序言
 
-* 参考材料
-    * 克劳德·艾尔伍德·香农 - 百度百科 [link](https://baike.baidu.com/item/%E5%85%8B%E5%8A%B3%E5%BE%B7%C2%B7%E8%89%BE%E5%B0%94%E4%BC%8D%E5%BE%B7%C2%B7%E9%A6%99%E5%86%9C/10588593?fr=aladdin&fromid=1146248&fromtitle=%E9%A6%99%E5%86%9C)
-    * 机器也许有一天能像人类一样思考 - 电子工程世界网 [link](http://www.eeworld.com.cn/wltx/article_2017071415927.html)
-
 
 
 ## 其他摘要
@@ -98,5 +88,10 @@
    如果存在一些跟我们的身体类似的机器，它们能够在各个方面尽可能接近地模仿我们的动作，我们还是可以利用两条非常可靠的标准来判明它们并不是真正的人类。第一条是……这种机器绝不能对自己接收到的任何内容都做出条理清晰的回应，而这是最愚蠢的人都能办到的。第二条是，虽然某些机器在完成某些工作的时候可以做得跟我们一样好，甚至可以做得更好，但是它们肯定做不好其他的事情，这点表明它们的行为并非建立在理解的基础上。
     ```
 
-* 摘录自 机器也许有一天能像人类一样思考 - 电子工程世界网 [link](http://www.eeworld.com.cn/wltx/article_2017071415927.html)
+## 参考材料
 
+* 《编码的奥妙》第十章 [link](http://vdisk.weibo.com/s/BZE2czijFfNzb?sudaref=www.baidu.com)
+* 乔治·布尔 - 百度百科 [link](https://baike.baidu.com/item/%E4%B9%94%E6%B2%BB%C2%B7%E5%B8%83%E5%B0%94/5029124?fr=aladdin&fromid=34983&fromtitle=%E5%B8%83%E5%B0%94)
+* 布尔代数入门 - 阮一峰的网络日志 [link](http://www.ruanyifeng.com/blog/2016/08/boolean-algebra.html)
+* 克劳德·艾尔伍德·香农 - 百度百科 [link](https://baike.baidu.com/item/%E5%85%8B%E5%8A%B3%E5%BE%B7%C2%B7%E8%89%BE%E5%B0%94%E4%BC%8D%E5%BE%B7%C2%B7%E9%A6%99%E5%86%9C/10588593?fr=aladdin&fromid=1146248&fromtitle=%E9%A6%99%E5%86%9C)
+* 机器也许有一天能像人类一样思考 - 电子工程世界网 [link](http://www.eeworld.com.cn/wltx/article_2017071415927.html)
